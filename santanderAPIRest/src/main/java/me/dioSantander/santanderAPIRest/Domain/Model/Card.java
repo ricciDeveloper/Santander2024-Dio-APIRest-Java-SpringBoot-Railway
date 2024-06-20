@@ -13,7 +13,11 @@ public class Card {
     private Long id;
     @Column(unique = true)
     private String number;
-    @Column(name = "additional_limit", precision = 2, scale = 13)
+    /**
+     * notação de escala em 2 decimais, para até 11 inteiros
+     * ex: 99.999.999.999,99
+     */
+    @Column(name = "additional_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
     public Long getId() {

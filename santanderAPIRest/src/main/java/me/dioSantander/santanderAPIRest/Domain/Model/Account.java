@@ -19,9 +19,10 @@ public class Account {
     private String number;
     private String agency;
     /**
-     * escala para até 11 inteiros, e 2 decimais.
+     * notação de escala em 2 decimais, para até 11 inteiros
+     * ex: 99.999.999.999,99
      */
-    @Column(scale = 13, precision = 2)
+    @Column(scale = 2, precision = 13)
     private BigDecimal balance;
     @Column(name = "additional_limit",scale = 13, precision = 2)
 
