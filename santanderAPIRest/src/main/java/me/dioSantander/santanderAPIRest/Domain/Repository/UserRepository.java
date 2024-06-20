@@ -14,5 +14,5 @@ import org.springframework.stereotype.Repository;
 //Na segunda, declaramo o TIPO DO ID, neste caso Long.
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-
+    boolean existsByAccountNumber(String accountNumber);
 }

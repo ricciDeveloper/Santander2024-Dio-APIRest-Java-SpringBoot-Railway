@@ -9,6 +9,6 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-	//FIXME: Continuar aula em MAPEAMENTO OBJETO RELACIONAL
+	//FIXME: Continuar aula em EXPONDO ENDPOINTS REST E TESTANDO A API
 
 }
