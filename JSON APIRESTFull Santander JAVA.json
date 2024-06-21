@@ -1,25 +1,25 @@
 {
   "name": "Joao Victor",
-  "account":{
-      "accountNumber": "00000000-0",
-      "accountAgency": "0000",
-      "accountBalance": 1324.64,
-      "accountLimit": 1000.00
+  "account": {
+    "number": "123456789",
+    "agency": "0001",
+    "balance": 1000.00,
+    "limit": 500.00
   },
-  "features":[
+  "card": {
+    "number": "1111222233334444",
+    "limit": 2000.00
+  },
+  "features": [
     {
       "icon": "URL",
-      "description" : "Descrição da Feature"
+      "description": "Descrição da Feature"
     }
   ],
-  "card": {
-      "cardNumber": "xxxx xxxx xxxx 0000",
-      "cardLimit":1000.00
-  },
-  "news":[
+  "news": [
     {
-        "newsIcon": "URL",
-        "newsDescription":"Descrição da novidade."
+      "icon": "URL",
+      "description": "Some description"
     }
   ]
 }
