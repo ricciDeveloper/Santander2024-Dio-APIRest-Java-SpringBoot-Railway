@@ -8,7 +8,7 @@ WORKDIR /app
 COPY santanderAPIRest/target/santanderAPIRest-0.0.1-SNAPSHOT.jar app.jar
 
 # Exponha a porta em que sua aplicação estará rodando
-EXPOSE 30436
+EXPOSE 8080
 
 # Comando para executar o JAR
 ENTRYPOINT ["java", "-jar", "app.jar"]
